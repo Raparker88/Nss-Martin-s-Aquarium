@@ -1,0 +1,35 @@
+
+.header {
+    display: flex;
+    border: 2px dotted darkblue;
+}
+.main{
+    display:flex;
+    border: 2px dotted darkblue;
+}
+
+.left--content{
+    border: 2px dotted darkblue;
+    flex: 70;
+}
+
+.tips{
+    border: 2px dotted darkblue;
+    flex: 30;
+}
+
+.fishes{
+    border: 2px dotted goldenrod;
+    padding: 20px;
+}
+
+.quotes {
+    border: 2px dotted darkorchid;
+    padding: 20px;
+}
+
+.locations {
+    border: 2px dotted green;
+    padding: 20px;
+
+}
