@@ -22,3 +22,7 @@
 .location__name {
     font-size: 30px;
 }
+
+.loc__text {
+    padding: 3px;
+}

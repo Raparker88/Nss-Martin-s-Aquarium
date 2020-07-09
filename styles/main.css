@@ -15,6 +15,7 @@
 
 .left--content{
     flex-basis: 75%;
+    color: rgb(62 75 75);
 }
 
 .logo {
@@ -31,11 +32,15 @@
     align-self: center;
     text-align: left;
     flex-grow: 1; 
-    font-size: 25px;
+    font-size: 40px;
+    font-family: inherit;
+    color: rgb(62 104 104);
 }
 
 .titles {
     text-align: center;
     align-self: center;
     flex-basis: 100%;
+    color: lightcyan;
+    font-family: ;
 }
