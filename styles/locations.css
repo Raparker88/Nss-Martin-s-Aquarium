@@ -1,9 +1,24 @@
 .locations {
-    border: 2px dotted green;
-    padding: 20px;
+    background-color: goldenrod;
+    border: rgb(62 104 104) solid 7px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .loc__img {
     width: 300px;
+}
+
+.location__image {
+    padding-bottom: 30px;
+}
+
+.location {
+    padding: 20px;
+}
+
+.location__name {
+    font-size: 30px;
 }

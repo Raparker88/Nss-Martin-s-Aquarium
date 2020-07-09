@@ -1,12 +1,13 @@
 .tips{
-    flex: 30;
+    border: rgb(62 104 104) solid 7px;
+    flex: 20;
     text-align: center;
     background-color: rgb(111,169,198);
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+    margin: 20px 20px 20px 0;
 }
 
 .tip {
-    flex-grow: 1;
+    margin: 40px 20px;
 }

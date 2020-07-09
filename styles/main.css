@@ -5,15 +5,15 @@
 
 .header {
     display: flex;
-    border: 2px dotted darkblue;
+    background-color: lightcyan;
+    padding-left: 20px;
 }
 .main{
     display:flex;
-    border: 2px dotted darkblue;
+    background-color: lightcyan;
 }
 
 .left--content{
-    border: 2px dotted darkblue;
     flex: 70;
 }
 
@@ -26,4 +26,9 @@
     text-align: center;
     flex-grow: 1; 
     font-size: 25px;
+}
+
+.titles {
+    text-align: center;
+    flex-basis: 100%;
 }

@@ -1,4 +1,15 @@
 .quotes {
-    border: 2px dotted darkorchid;
-    padding: 20px;
+    background-color: goldenrod;
+    border: rgb(62 104 104) solid 7px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
+.quote {
+    width: 100px;
+    margin: 30px;
+    flex-basis: auto;
+    flex: 1;
+}
+    
+    
