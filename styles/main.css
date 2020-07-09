@@ -38,9 +38,9 @@
 }
 
 .titles {
-    text-align: center;
+    text-align: left;
     align-self: center;
     flex-basis: 100%;
     color: lightcyan;
-    font-family: ;
+    border-bottom: 3px double;
 }

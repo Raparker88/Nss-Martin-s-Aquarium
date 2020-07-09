@@ -2,9 +2,13 @@
     background-color: goldenrod;
     border-radius: 0 40px 40px;
     margin: 20px;
+    padding: 5px;
+}
+.location__cards {
     display: flex;
     flex-direction: column;
-    padding-bottom: 5px;
+    text-align: center;
+    
 }
 
 .loc__img {
