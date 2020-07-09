@@ -1,13 +1,14 @@
 .locations {
-    background-color: goldenrod;
+    background-color:rgb(167 214 215);
     border-radius: 0 40px 40px;
     margin: 20px;
     padding: 5px;
 }
 .location__cards {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     text-align: center;
+    justify-content: space-evenly;
     
 }
 
@@ -21,6 +22,7 @@
 
 .location {
     padding: 20px;
+    width: 300px;
 }
 
 .location__name {
@@ -28,5 +30,5 @@
 }
 
 .loc__text {
-    padding: 3px;
+    padding: 5px;
 }

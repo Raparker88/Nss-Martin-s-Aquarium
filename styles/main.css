@@ -3,10 +3,15 @@
 @import "fishes.css";
 @import "locations.css";
 
+body {
+    margin: 0;
+}
+
 .header {
     display: flex;
     background-color: lightcyan;
     padding-left: 20px;
+    border-bottom: 20px rgb(47 68 71) double;
 }
 .main{
     display:flex;
@@ -14,7 +19,7 @@
 }
 
 .left--content{
-    flex-basis: 75%;
+    flex: 4;
     color: rgb(62 75 75);
 }
 

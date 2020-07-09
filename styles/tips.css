@@ -1,14 +1,21 @@
 .tips{
-    background-color: rgb(167 214 215);
-    border-radius: 40px;
-    flex: 20;
+    background-color: rgb(47 68 71);
+    flex: 1;
     text-align: center;
     display:flex;
     flex-direction: column;
-    margin: 20px 20px 20px 0;
-    color: rgb(62 104 104);
+    color: lightcyan;
+    padding-top: 10px;
 }
 
 .tip {
-    margin: 40px 20px;
+    padding: 40px 10px;
+    border-bottom: 3px double lightcyan;
+    width: 150px;
+    align-self: center;
+}
+
+.tip__title {
+    color: lightcyan;
+    border-bottom: 3px double lightcyan;
 }
