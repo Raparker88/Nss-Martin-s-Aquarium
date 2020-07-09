@@ -1,6 +1,6 @@
 .locations {
     background-color: goldenrod;
-    border: rgb(62 104 104) solid 7px;
+    border-radius: 0 40px 40px;
     margin: 20px;
     display: flex;
     flex-direction: column;

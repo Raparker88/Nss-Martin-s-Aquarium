@@ -1,15 +1,21 @@
 .quotes {
     background-color: goldenrod;
-    border: rgb(62 104 104) solid 7px;
+    border-radius: 0 40px 40px;
     margin: 20px;
+    padding-top: 5px;
+}
+
+.quotes__cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    
 }
 .quote {
-    width: 100px;
-    margin: 30px;
+    width: 160px;
+    margin: 15px;
     flex-basis: auto;
-    flex: 1;
+    
 }
     
     
