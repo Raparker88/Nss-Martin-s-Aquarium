@@ -1,5 +1,5 @@
-import {useFish} from "scripts/fishDataProvider.js"
-import {fishHTML} from "scripts/FishHTML.js"
+import {useFish} from "./fishDataProvider.js"
+import {fishHTML} from "./FishHTML.js"
 
 export const fishList = () => {
     //reference to the element
@@ -13,7 +13,6 @@ export const fishList = () => {
 
     //add html to content element
     contentElement.innerHTML += `
-        <section class= "fish">
             ${fishHTMLRepresentations}
-        </section>`
+        `
 }
