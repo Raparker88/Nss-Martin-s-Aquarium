@@ -7,16 +7,8 @@ import {nonHolyFish} from "./fishDataProvider.js"
 const contentElement = document.querySelector(".fish__cards")
 
 const addFishToDOM = (arrFish) => {
-    
-    let fishHTMLRepresentations = ""
-    for (const fishObj of arrFish){
-        fishHTMLRepresentations += fishHTML(fishObj)
-    }
-    
-        //add html to content element
-    contentElement.innerHTML += `
-            ${fishHTMLRepresentations}
-            `
+    //add html to content element
+    contentElement.innerHTML += arrFish.map(fish => fishHTML(fish)).join("")
 
 }
 

@@ -6,13 +6,7 @@ export const tipList = () => {
     const contentElement = document.querySelector(".tips")
     const tips = useTips()
 
-    let tipHTMLRepresentations = ""
-    for (const tip of tips){
-        tipHTMLRepresentations += tipHTML(tip)
-    }
 
     //add html to content element
-    contentElement.innerHTML += `
-            ${tipHTMLRepresentations}
-        `
+    contentElement.innerHTML += tips.map(tip => tipHTML(tip)).join("")
 }

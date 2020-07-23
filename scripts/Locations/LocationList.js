@@ -6,13 +6,8 @@ export const locationList = () => {
     const contentElement = document.querySelector(".location__cards")
     const locations = useLocation()
 
-    let locHTMLRepresentations = ""
-    for (const locationObj of locations){
-        locHTMLRepresentations += locationHTML(locationObj)
-    }
+   
 
     //add html to content element
-    contentElement.innerHTML += `
-            ${locHTMLRepresentations}
-        `
+    contentElement.innerHTML += locations.map(location => locationHTML(location)).join("")
 }
